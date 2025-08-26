@@ -4,10 +4,73 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <style>
+    /* Hero Container */
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f5f5f5;
+      gap: 2rem;
+      padding: 20px;
+    }
+
+    /* Image Styling */
+    .hero img {
+      width: 400px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Text Content */
+    .hero-content {
+      max-width: 500px;
+    }
+
+    .hero-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #222;
+    }
+
+    .hero-content p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: #555;
+    }
+
+    /* Explore Button */
+    .hero-content a {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .hero-content a:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <div class="hero">
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Nature">
+
+    <div class="hero-content">
+      <h1>Discover Beautiful Places</h1>
+      <p>Explore the world’s most stunning destinations and create unforgettable memories.</p>
+      <a href="#">Explore Now</a>
+    </div>
+  </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
